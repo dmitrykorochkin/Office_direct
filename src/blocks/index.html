@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОфисДирект</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__info">
+                    <div class="header__burger">
+                        <img src="img/header/burger-black.svg" alt="img">
+                    </div>
+                    <a href="#" class="header-logo header-logo__wrap">
+                        <div class="header-logo__img">
+                            <img src="img/header/logo.png" alt="img">
+                        </div>
+                        <div class="header-logo__text header-logo__text--color" >Кресла Samurai</div>
+                    </a>
+                    <div class="header__find">
+                        <input class="header__input header__input--color" type="text" placeholder="Название модели или артикул">
+                    </div>
+                    <div class="header-tel header-tel__wrap ">
+                        <div class="header-tel__img">
+                            <img src="img/header/Call.svg" alt="img">
+                        </div>
+                        <a href="tel:+74952210675" class="header-tel__text header-tel__text--color">+7 495 221-06-75</a>
+                    </div>
+                    <button type="button" class="button button__header button__header--color ">Заказать звонок</button>
+                </div>
+                <div class="header__menu">
+                    <div class="header__navigation">
+                        <button class="header__catalog header__catalog--color header__catalog--size-m ">
+                            <img  src="img/header/burger-white.svg" class="menu__img" alt="img">
+                            <span>Каталог</span>
+                        </button>
+                        <nav class="header__nav">
+                            <a href="#" class="header__link header__link--color">О продукте</a>
+                            <a href="#" class="header__link header__link--color">Отзывы</a>
+                            <a href="#" class="header__link header__link--color">Доставка и оплата</a>
+                            <a href="#" class="header__link header__link--color">Контакты</a>
+                        </nav>
+                    </div>
+                    <div class="header__shop">
+                        <div class="header__region">
+                            <div class="header__gps">
+                                <img src="img/header/send.svg" alt="img">
+                            </div>
+                            <input placeholder="Москва" class="header__country header__country--color" type="text" list="country">
+                            <datalist  id="country">
+                                <option value="Москва"></option>
+                                <option value="Нижний Новгород"></option>
+                                <option value="Арзамас"></option>
+                            </datalist>
+                        </div>
+                        <div class="header-basket header-basket__wrap">
+                            <div class="header-basket__img">
+                                <img src="img/header/cart.svg" alt="img">
+                            </div>
+                            <span class="header-basket__text">Моя корзина</span>
+                            <div class="header-basket__count header-basket__count--size">+1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="advantages">
+            <div class="container advantages__wrap ">
+                <div class="advantages__item">
+                    <div class="advantages__img">
+                        <img src="img/advantages/trolley.svg" alt="img">
+                    </div>
+                    <div class="advantages__title"><span>Бесплатная доставка</span> по Москве и Санкт-Петербургу — от 3 шт.</div>
+                    <a href="#" class="advantages__text">Как получить?</a>
+                </div>
+                
+                <div class="advantages__item advantages__item--chess">
+                    <div class="advantages__img">
+                        <img src="img/advantages/chess.svg" alt="img">
+                    </div>
+                    <div class="advantages__title"><span>Индивидуальные скидки</span> при заказе от 3 шт.</div>
+                    <a href="#" class="advantages__text">Смотреть условия</a>
+                </div>
+                <div class=" advantages__item">
+                    <div class="advantages__img">
+                        <img src="img/advantages/discount.svg" alt="img">
+                    </div>
+                    <div class="advantages__title">Для юридических лиц
+                        действуют <span>особые условия</span></div>
+                    <a href="#" class="advantages__text">Узнать подробнее</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog">
+            <div class="container">
+                <h2 class="title title__document">Каталог кресел</h2>
+                <div class="catalog__wrap">
+                    <a href="#" class="cart cart__wrap">
+                        <div class="cart__img">
+                            <img src="img/cart/cart.png" alt="img">
+                        </div>
+                        <div class="cart__title cart__title--color">Samurai KL-1.04 Темно-коричневый </div>
+                        <div class="cart__coin-new">23 000 ₽</div>
+                        <div class="cart__coin-old">27 000 ₽</div>
+                        <button type="submit" class="button__cart button__cart--color">Добавить в корзину</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+</body>
+</html>
