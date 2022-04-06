@@ -1,0 +1,12 @@
+.button__header {
+ 
+  @include font(500, 1.6rem, 140%);
+  padding: 1.35rem 2.85rem 1.55rem;
+  font-family: 'Inter';
+}
+
+@media (max-width: 48em) {
+  .button__header{
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+.advantages__title {
+    color: $color-text-black;
+    @include font(300, 2.2rem, 150%);
+    margin-bottom: 1.3rem ;
+    text-align: center;
+    
+
+    span {
+        font-weight: 600;
+    }
+
+}
+
+@media (max-width:48em) {
+    .advantages__title {
+        @include font(600, 1.4rem, 150%);
+        margin-left: .8rem;
+        margin-bottom: 8rem;
+        
+    
+    }
+}

@@ -1,0 +1,12 @@
+.advantages__item--chess {
+    margin-right: 8.3rem ;
+    margin-left: 6.8rem;
+}
+
+@media (max-width:48em) {
+
+    .advantages__item--chess {
+        margin-right: 0rem ;
+        margin-left: 0rem;
+    }
+}

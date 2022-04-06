@@ -1,0 +1,21 @@
+.advantages__text {
+    font-family: 'Manrope';
+    @include font (400, 1.5rem, 150%);
+    text-align: center;
+    color: #959AAE;
+    
+    border-bottom: 0.1rem dashed #E7EAEF;
+
+}
+
+@media (max-width:48em) {
+
+    .advantages__text{
+        @include font (400, 1.3rem, 150%);
+        padding-left: 9.5rem;
+        margin-top: -8rem;
+        padding-bottom: 0rem;
+    }
+   
+   
+}

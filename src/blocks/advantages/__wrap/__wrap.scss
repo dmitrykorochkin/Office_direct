@@ -1,0 +1,18 @@
+.advantages__wrap {
+    display: flex;
+    // justify-content: space-between;
+    padding-top: 9.8rem;
+    
+
+}
+
+@media (max-width:48em) {
+    .advantages__wrap {
+        
+        padding-top: 5rem;
+        flex-direction: column;
+       
+        
+        
+    }
+}

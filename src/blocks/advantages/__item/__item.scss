@@ -1,0 +1,19 @@
+.advantages__item {
+    max-width: 36.3rem;
+    text-align: center;
+    @include centered;
+    flex-direction: column;
+   
+    
+}
+
+@media (max-width:48em) {
+
+    .advantages__item {
+        max-width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+    
+    }
+}
